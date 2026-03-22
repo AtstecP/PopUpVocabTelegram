@@ -1,0 +1,77 @@
+{
+  "adversity": {
+    "definition": "difficulties; misfortune",
+    "partOfSpeech": "noun",
+    "gender": "n/a"
+  },
+  "ambiguous": {
+    "definition": "open to more than one interpretation; not clear",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "collaborate": {
+    "definition": "to work jointly on an activity or project",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "comprehensive": {
+    "definition": "including all or nearly all elements or aspects of something",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "curtail": {
+    "definition": "to reduce in extent or quantity; to impose a restriction on",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "diligent": {
+    "definition": "having or showing care and conscientiousness in one's work",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "emulate": {
+    "definition": "to match or surpass a person or achievement, typically by imitation",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "feasible": {
+    "definition": "possible to do easily or conveniently",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "hinder": {
+    "definition": "to create difficulties for someone or something, resulting in delay",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "inevitable": {
+    "definition": "certain to happen; unavoidable",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "mitigate": {
+    "definition": "to make something bad less severe, serious, or painful",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "pragmatic": {
+    "definition": "dealing with things sensibly and realistically",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "resilient": {
+    "definition": "able to withstand or recover quickly from difficult conditions",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "subsequent": {
+    "definition": "coming after something in time; following",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "volatile": {
+    "definition": "liable to change rapidly and unpredictably, especially for the worse",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  }
+}

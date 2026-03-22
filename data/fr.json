@@ -1,0 +1,77 @@
+{
+  "abonner à (s’)": {
+    "definition": "to subscribe to",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "accès haut-débit": {
+    "definition": "high-speed access",
+    "partOfSpeech": "noun",
+    "gender": "m"
+  },
+  "accroupir (s’)": {
+    "definition": "to squat, to crouch",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "adresse IP": {
+    "definition": "Internet protocol address",
+    "partOfSpeech": "noun",
+    "gender": "f"
+  },
+  "actuel(le)": {
+    "definition": "present, present day",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "addition": {
+    "definition": "bill",
+    "partOfSpeech": "noun",
+    "gender": "f"
+  },
+  "apercevoir (s’)": {
+    "definition": "to realize",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "ascenseur": {
+    "definition": "elevator",
+    "partOfSpeech": "noun",
+    "gender": "m"
+  },
+  "avoir besoin": {
+    "definition": "to need",
+    "partOfSpeech": "expression",
+    "gender": "n/a"
+  },
+  "bibliothèque": {
+    "definition": "library",
+    "partOfSpeech": "noun",
+    "gender": "f"
+  },
+  "boulanger": {
+    "definition": "baker",
+    "partOfSpeech": "noun",
+    "gender": "m"
+  },
+  "clavier": {
+    "definition": "keyboard",
+    "partOfSpeech": "noun",
+    "gender": "m"
+  },
+  "gagner": {
+    "definition": "to win, to earn",
+    "partOfSpeech": "verb",
+    "gender": "n/a"
+  },
+  "heureux": {
+    "definition": "happy",
+    "partOfSpeech": "adjective",
+    "gender": "n/a"
+  },
+  "yeux": {
+    "definition": "eyes",
+    "partOfSpeech": "noun",
+    "gender": "m.pl"
+  }
+}

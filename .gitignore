@@ -1,0 +1,17 @@
+# Sensitive Credentials
+.env
+
+# User Data (Keep this off GitHub!)
+data/settings.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Temporary Voice Files
+*.mp3
+
+# OS specific files
+.DS_Store
