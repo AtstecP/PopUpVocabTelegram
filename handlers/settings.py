@@ -84,3 +84,43 @@ async def handle_toggle(callback: types.CallbackQuery):
         parse_mode="HTML"
     )
     await callback.answer() 
+
+@router.message(Command("interval"))
+async def cmd_interval(message: types.Message):
+    builder = InlineKeyboardBuilder()
+    
+    # Common interval options in minutes
+    options = [5, 15, 30, 60, 120]
+    
+    for mins in options:
+        label = f"⏱ {mins} min"
+        builder.button(text=label, callback_data=f"set_int:{mins}")
+    
+    builder.adjust(2) # Two buttons per row
+    
+    uid = message.from_user.id
+    current = db.get_user(uid).get('interval', 15)
+    
+    await message.answer(
+        f"🕒 <b>Current Interval: {current} minutes</b>\nHow often should Jarvis send you a word?",
+        reply_markup=builder.as_markup(),
+        parse_mode="HTML"
+    )
+
+@router.callback_query(F.data.startswith("set_int:"))
+async def handle_interval_change(callback: types.CallbackQuery):
+    new_interval = int(callback.data.split(":")[1])
+    uid = callback.from_user.id
+    
+    # 1. Update Database
+    db.update_user(uid, interval=new_interval)
+    
+    # 2. Update the actual Scheduler Job in real-time
+    from utils.scheduler import scheduler
+    job_id = f"job_{uid}"
+    
+    if scheduler.get_job(job_id):
+        scheduler.reschedule_job(job_id, trigger='interval', minutes=new_interval)
+    
+    await callback.message.edit_text(f"✅ Interval updated to <b>{new_interval} minutes</b>!", parse_mode="HTML")
+    await callback.answer()

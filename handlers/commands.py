@@ -17,7 +17,7 @@ async def cmd_start(message: types.Message):
     db.update_user(uid, is_active=True, waiting_ack=False)
     await message.answer(
         f"Salut {message.from_user.first_name}! Your French/English tutor is active.\n"
-        "Commands:\n/stop - Pause the bot\n/now - Get a word immediately\n/modes - Settings"
+        "Commands:\n/stop - Pause the bot\n/now - Get a word immediately\n/modes - Settings\n/interval - notification time"
     )
 
 @router.message(Command("stop"))
